@@ -105,34 +105,3 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     </script>
   </head>
 <body>
-     <div class="loader"></div>
-  <header>
-        <h1>demObywatel | Informacje i Regulamin <i class="fas fa-info-circle"></i></h1>
-        <a href="dashboard.php" class="back-button"><i class="fas fa-arrow-left"></i> Back</a>
-    </header>
-    <div class="content">
-        <h2>O nas</h2>
-        <p>demObywatel został stworzony, aby umożliwić użytkownikom tworzenie przykładowych stron imitujących aplikacje mObywatel.  </p>
-        
-        <h2>Jak używać generatora?</h2>
-        <p>Wypełnij wszystkie pola danymi, a następnie wygeneruj strone i podążaj zgodnie z poniżej podanymi instrukcjami.</p>
-        <b style="color:green"> Android <i class="fab fa-android" style="color: #0ecb01;"></i></b>
-      <li>Uruchom stronę w chrome</li>
-        <li>Przejdź do wczesniej wygenerowanej strony, do ekranu "Zaloguj się"</li>
-          <li>Naciśnij trzy kropki w prawym górnym rogu</li>
-            <li>Naciśnij "Dodaj do ekranu głównego"</li>
-              <li>Wpisz nazwę</li>
-                <li>Naciśnij "Dodaj"</li>
-         <b style="color:white"> IOS <i class="fab fa-apple" style="color: #ffffff;"></i></b>    
-     <li> Uruchom stronę w safari</li>
-     <li> Przejdź do wczesniej wygenerowanej strony, do ekranu "Zaloguj się"</li>
-     <li> Naciśnij strzałkę w górę znajdującą się na dolnym pasku po środku</li>
-     <li> Naciśnij "Dodaj do ekranu głównego"</li>
-     <li>  Wpisz nazwę</li>
-     <li> Naciśnij "Dodaj"</li>
-          <h2>Uwaga</h2>
-        <p>demObywatel jest przeznaczony wyłącznie do celów demonstracyjnych i edukacyjnych. </p> <!-- #esesman -->
-       
-    </div>
-</body>
-</html>
